@@ -1,5 +1,5 @@
 ---
-.title = "Homepage",
+.title = "Home",
 .date = @date("2026-06-21"),
 .author = "elyfheim",
 .layout = "index.shtml",

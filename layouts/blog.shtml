@@ -1,0 +1,31 @@
+<extend template="base.shtml">
+<head id="head">
+	<style>
+		.post-list-item {
+			margin-bottom: 0;
+		}
+	</style>
+</head>
+<div id="body">
+	<header>
+    <div class="container">
+			<a href="$site.page('').link()">Home</a>
+			<a class="active" href="$site.page('blog').link()">Blog</a>
+    </div>
+  </header>
+	<div>
+		<ul class="post-list" :loop="$page.subpages()">
+          <li class="post-list-item">
+            <a
+              class="post"
+              href="$loop.it.link()"
+            >
+              <h4 :text="$loop.it.title"></h4>
+              <p class="date-list">
+			    <span :text="$loop.it.date.format('Jan 2, 2006')"></span>
+              </p>
+            </a>
+          </li>
+		</ul>
+	</div>
+</div>

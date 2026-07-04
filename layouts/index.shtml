@@ -1,0 +1,68 @@
+<extend template="base.shtml">
+<head id="head">
+	<style>
+		.content-container {
+			padding-left: 100px;
+			padding-right: 100px;
+			display: flex;
+			column-gap: 30px;
+		}
+
+		@media (max-width: 768px) {
+			.content-container {
+				padding-left: 32px;
+				padding-right: 32px;
+				flex-direction: column;
+				margin-bottom: 32px;
+			}
+
+			li {
+				font-size: 14px;
+			}
+		}
+		
+		.profile {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.profile-name {
+			margin-top: 12px;
+			font-size: 16px;
+			color: #b48ead;
+			margin-bottom: 4px;
+		}
+
+		.profile-description {
+			font-size: 14px;
+			font-style: italic;
+			color: #81a1c1;
+			text-align: center;
+			line-height: 20px;
+		}
+
+		.profile-image {
+			margin-top: 24px;
+			width: 180px;
+			height: 180px;
+			border-radius: 100%;
+		}
+	</style>
+</head>
+<div id="body">
+	<header>
+    <div class="container">
+			<a class="active" href="$site.page('').link()">Home</a>
+			<a href="$site.page('blog').link()">Blog</a>
+    </div>
+  </header>
+  <div class="content-container">
+  	<div class="profile">
+	  <img class="profile-image" src="$site.asset('profilepic.webp').link()">
+	  <h3 class="profile-name">Jun (Eli)</h3>
+	  <p class="profile-description">smoked salmon & cream cheese bagel enjoyer</p>
+	</div>
+	<div :html="$page.content()"></div>
+  </div>
+</div>

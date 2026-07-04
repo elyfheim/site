@@ -1,0 +1,77 @@
+<extend template="base.shtml">
+<head id="head">
+	<style>
+		#prev-next {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top: 40px;
+		}
+
+		.title {
+			color: #81a1c1;
+			margin-bottom: 6px;
+			font-weight: 500;
+			font-size: 24px;
+		}
+
+		.date {
+			color: #5e81ac;
+			font-weight: 400;
+			font-size: 14px;
+			margin-bottom: 30px;
+		}
+		
+		figure {
+			align-self: center;
+			text-align: center;
+			font-style: italic;
+		}
+
+		.post-container {
+			padding-left: 100px;
+			padding-right: 100px;
+			padding-bottom: 80px;
+		}
+
+
+		@media (max-width: 768px) {
+  			.post-container {
+				padding-left: 24px;
+				padding-right: 24px;
+  			}
+		}
+		
+		.post-content {
+			display:flex;
+			flex-direction: column;
+		}
+	</style>
+</head>
+<div id="body">
+  <header>
+    <div class="container">
+			<a href="$site.page('').link()">Home</a>
+			<a class="active" href="$site.page('blog').link()">Blog</a>
+    </div>
+  </header>
+  <div class="post-container">
+	<h1 class="title" :text="$page.title"></h1>
+	<h4 class="date" :text="$page.date.format('Jan 2, 2006')"></h4>
+	<div class="post-content" :html="$page.content()"></div>
+	<div id="prev-next">
+		<div :if="$page.prevPage?()">
+			<a href="$if.link()">
+				←
+				<span :text="$if.title"></span>
+			</a>
+		</div>
+		<div :if="$page.nextPage?()">
+			<a href="$if.link()">
+				<span :text="$if.title"></span>
+				→
+			</a>
+		</div>
+	</div>
+  </div>
+</div>

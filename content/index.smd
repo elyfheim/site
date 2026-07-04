@@ -1,0 +1,18 @@
+---
+.title = "Homepage",
+.date = @date("2026-06-21"),
+.author = "elyfheim",
+.layout = "index.shtml",
+.draft = false,
+---
+I'm a tinkerer who loves all things computer and math. I mainly mess around with [Zig](https://ziglang.org/) and C in my free time. 
+Highly interested in systems programming, embedded systems and firmware development.
+
+I'm also obsessed with keyboard-centric workflow (I personally use an ergonomic column-staggered split keyboard). 
+And naturally I also prefer a keyboard-focused editor like [neovim](https://neovim.io/) (although, [helix](https://helix-editor.com/) is looking really nice these days).
+
+I love music! I listen to all kinds of music from math rock, midwest emo to big room house, DnB and hardstyle. I also produce music sometimes.
+
+- [Codeberg](https://codeberg.org/elyfheim)
+- [Github](https://github.com/elyfheim)
+- [Email](mailto:boundlesselation@protonmail.com)

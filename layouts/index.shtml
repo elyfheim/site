@@ -49,6 +49,13 @@
 			height: 180px;
 			border-radius: 100%;
 		}
+
+		@media (max-width: 768px) {
+			.profile-image {
+				width: 160px;
+				height: 160px;
+			}
+		}
 	</style>
 </head>
 <div id="body">

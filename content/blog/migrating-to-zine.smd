@@ -19,4 +19,4 @@ I decided to clone my old website project and for your context, It has been quit
 It might as well be a skill issue on my part but I was frustrated already because I don't even use a lot of their complicated features, 
 I only want a simple static website to serve my blog posts and that's it. So I installed Zine and began porting everything to it, 
 it was quite simple actually (I didn't install the LSPs and Treesitter stuff yet on my editor so currently my codes are probably badly formatted). 
-So yeah, embracing anew era for my blog and saying goodbye to both Astro and (hopefully) NPM dependencies. Cheers!.
+So yeah, embracing anew era for my blog and saying goodbye to both Astro and (hopefully) NPM dependencies. Cheers!

@@ -3,7 +3,7 @@
 	<head id="head">
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1">
-		<title :text="$page.title.suffix(' - ', $site.title)"></title>
+		<title :text="$page.title.suffix(' | ', $site.title)"></title>
 		<link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
 		<super>
 	</head>

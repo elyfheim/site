@@ -201,7 +201,7 @@
           >
         </div>
         <span class="copyright text-subtle">© 2026 Elyfheim. Built with <a href="https://zine-ssg.io/" target="_blank">Zine</a></span>
-	  	<a class="source-code-footer" href="https://codeberg.org/elyfheim/site" target="_blank">Source Code</a>
+	  	<a class="source-code-footer" href="https://github.com/elyfheim/site" target="_blank">Source Code</a>
       </div>
     </main>
   </body>

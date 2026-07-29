@@ -21,6 +21,12 @@
 			font-size: 14px;
 			margin-bottom: 30px;
 		}
+
+		@media (max-width: 768px) {
+			.date {
+				margin-bottom: 48px;
+			}	
+		}
 		
 		figure {
 			align-self: center;

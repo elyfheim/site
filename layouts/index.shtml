@@ -17,10 +17,6 @@
 				flex-direction: column;
 				margin-bottom: 32px;
 			}
-
-			li {
-				font-size: 14px;
-			}
 		}
 		
 		.profile {
@@ -37,7 +33,7 @@
 		}
 
 		.profile-description {
-			font-size: 14px;
+			font-size: 15px;
 			font-style: italic;
 			color: #81a1c1;
 			text-align: center;

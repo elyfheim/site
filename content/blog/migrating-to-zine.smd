@@ -8,6 +8,7 @@
 
 After countless iteration of my personal website/blog, I finally decided to rewrite the whole thing again! (I swear I do this every year). 
 This time, I decided that it would be really interesting to break away from the hell that is NPM (and any other wrapper around that messy package repositories). 
+
 I took my the style and layout from my old website and adapted it to this new fresh project here and I'm proud to say that I'm finally using [Zine](https://zine-ssg.io/).
 
 Zine is being developed by [Loris Cro](https://kristoff.it/) who is the VP of Community at [Zig Software Foundation](https://ziglang.org/zsf/) and of course to no one's surprise this project is built with [Zig](https://ziglang.org/). 
@@ -17,6 +18,7 @@ My old website was built using [Astro](https://astro.build/) and it was working 
 I decided to clone my old website project and for your context, It has been quite some time since I run it locally and there it was, obscure errors from NPM dependencies that I wasn't even sure was my fault or my computer's fault.
 
 It might as well be a skill issue on my part but I was frustrated already because I don't even use a lot of their complicated features, 
-I only want a simple static website to serve my blog posts and that's it. So I installed Zine and began porting everything to it, 
+I only want a simple static website to serve my blog posts and that's it. So I installed Zine and began porting everything to it.
+
 it was quite simple actually (I didn't install the LSPs and Treesitter stuff yet on my editor so currently my codes are probably badly formatted). 
 So yeah, embracing anew era for my blog and saying goodbye to both Astro and (hopefully) NPM dependencies. Cheers!

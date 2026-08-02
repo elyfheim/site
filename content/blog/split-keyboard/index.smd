@@ -1,0 +1,53 @@
+---
+.title = "Thoughts on Split Keyboards",
+.date = @date("2026-07-31"),
+.author = "elyfheim",
+.tags = ["split keyboard"],
+.layout = "post.shtml",
+.draft = false,
+---
+
+It has been around 1 year since I began using a split keyboard. I feel like now is a good time to look back and tell the internet about my experience with it. 
+
+## Why a split keyboard?
+Last year I was spending a good chunk of my time trying to re-learn how to type. Yes, I did not know how to touch type 
+and it was really bothering my brain in some ways because I wasn’t using all of my fingers to type. 
+I decided that it was time to finally learn to touch type as an adult.
+
+It was by no means an easy journey, but it all came down to a matter of effort and repetition. After around 2 months I was already around 80-90 WPM which was good enough for me to touch type professionally, for work. 
+Around this time, a friend visited me and told me all about split keyboards after hearing my touch typing journey.
+
+*"Dude you should really try a split keyboard! it’s pretty sweet and since you already touch type anyway it’s gonna be a breeze for you."*
+
+was what he said, roughly. 
+
+But I did not really bother with it because honestly I was kinda lazy and I didn’t think it would be all that great. 
+He then proceeded to give me his old split keyboard which was a Corne, hoping that I would open my heart and give it a chance, so I did.
+
+## Understanding split keyboards
+First of all, how can I type with this? I understand that the letter position is pretty much the same (unless you’re using a different keyboard layout). But where are my symbols and numbers?. To paint you a picture, here’s a Corne keyboard.
+
+[A photo of corne keyboard](<$image.asset("corne.jpg").alt("A photo of a split keyboard.")>)
+
+it turns out with for keyboards with lower key count, we may need some other methods to fit all the keys inside it. Namely **hold-tap**, **combo**, **layer**, **tap-dance**.
+
+### hold-tap
+Hold-tap behavior is actually really easy to understand. We’re basically assigning 2 responsibilities to 1 key. How can we do that? it is possible to differentiate the behavior of a key when it’s pressed for a long time (hold) and when it’s pressed quickly (tap). This is possible if we set a certain timeout to indicate the threshold of when the key should be interpreted as a tap or hold.
+
+### combo
+We can configure a special behavior when 2 keys are tapped at the same. For example, I configured a combo for my d and f key such that when they’re tapped together quickly, it behaves like an esc key. This is particularly useful if you use vim.
+
+### layer
+Layer is another set of keys that can activate when you hold a special layer key. This might sound complicated but it’s actually not, your shift key is a layer key that gives you access to a layer of uppercase letters. When you hold shift, your a transforms to A, b transforms to B, etc. We can create a custom layer for example to map out the symbols, numbers and other keys.
+
+### tap-dance
+Tap-dance can create a behavior such that when a key is tapped 2 times quickly, it behaves like another key.
+
+After utilizing all of these interesting behaviors, I managed to create my own keyboard layout after months of iterations. I settled on something practical and easy to use for me, and I might write a post specifically about my keyboard layout in the future but for now if you are curious, you can check it on my github: zmk-sweep.
+
+## Afterwords
+After about a year of using split keyboards, I’m quite confident that I won’t be going back to  a regular keyboard (outside of a laptop keyboard). It is simply more comfortable for me. Having access to my numbers and symbols using layers is a game-changer for sure. I make less typos now. 
+
+Does it make me faster at typing? I don’t think so, but It feels better, more accurate and does not feel awkward to use. The main drawback is that whenever I need to switch to my laptop keyboard I will immediately miss my split keyboard because it just doesn’t feel the same. 
+
+If you’re someone who types in front of the computer a lot, I would highly recommend you to give split keyboards a try if you have the chance. But only if you have the time for it of course. I won’t deny that you won’t be able to be productive in 1 day, or 1 month even. But the long-term trade-off is definitely worth it, kinda like learning vim keybindings.

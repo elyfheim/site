@@ -205,4 +205,5 @@
       </div>
     </main>
   </body>
-</html>
+	<script src="$site.asset('main.js').link()"></script>
+	</html>

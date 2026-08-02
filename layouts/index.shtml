@@ -1,6 +1,14 @@
 <extend template="base.shtml">
 <head id="head">
 	<style>
+		header {
+			z-index: 10000;
+		}
+
+		.MathJax {
+		z-index: 10;
+		}
+
 		.content-container {
 			padding-top: 24px;
 			padding-left: 100px;

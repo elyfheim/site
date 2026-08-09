@@ -7,17 +7,18 @@
 ---
 I'm a tinkerer who loves all things computer and math. I mainly mess around with [Zig](https://ziglang.org/) and C in my free time. 
 
-My area of interests are computer architecture, programming language design, compilers, 
+My area of interests are computer architecture, computer systems, compilers, 
 emulator development, frontend & JavaScript tooling, systems programming and more. 
 I'm currently exploring the embedded space and would like to get deeper into firmware development.
 
-Professionally, I mostly work with web technologies ranging from various front-end tooling like React, Vue, Vite and many more to back-end services and infrastructures-related stuff.
+Professionally, I mostly work with web technologies ranging from various front-end tooling like React, Vue, Vite and many more to back-end services and infrastructures-related technologies.
 
 I'm quite obsessed with workflow optimization and ergonomics, I got into split keyboards in [2025](https://elyfheim.me/blog/split-keyboard/) and I think it's game-changing for my typing experience. 
 And naturally I also prefer a keyboard-focused editor like [neovim](https://neovim.io/) (although, [helix](https://helix-editor.com/) is looking really nice these days).
 
 ## Projects
 - [Warlock](https://warlock.elyfheim.me): A CHIP-8 emulator/interpreter written in C, compiled to WebAssembly.
+- [Nordle](https://nordle.elyfheim.me): A Wordle clone built with React, written in TypeScript.
 
 ## Links 
 - [Github](https://github.com/elyfheim)

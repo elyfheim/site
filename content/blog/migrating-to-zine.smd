@@ -5,7 +5,6 @@
 .tags = ["update", "site"],
 .layout = "post.shtml",
 .draft = false,
-
 ---
 
 After countless iteration of my personal website/blog, I finally decided to rewrite the whole thing again! (I swear I do this every year). 

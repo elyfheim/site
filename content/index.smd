@@ -5,11 +5,13 @@
 .layout = "index.shtml",
 .draft = false,
 ---
-I'm a tinkerer who loves all things computer and math. I mainly mess around with [Zig](https://ziglang.org/) and C in my free time. 
+I'm a tinkerer who loves all things computer and math. I mainly mess around with TypeScript, JavaScript, [Zig](https://ziglang.org/) and C in my free time. 
 
 My area of interests are computer architecture, computer systems, compilers, 
 emulator development, frontend & JavaScript tooling, systems programming and more. 
-I'm currently exploring the embedded space and would like to get deeper into firmware development.
+
+I'm currently writing my own JavaScript [framework](https://github.com/elyfheim/lassi) in Zig (still a work-in-progress). Planning to have seamless integration with Zig codes so the users can easily 
+write performant logic in WebAssemby should they choose to do so.
 
 Professionally, I mostly work with web technologies ranging from various front-end tooling like React, Vue, Vite and many more to back-end services and infrastructures-related technologies.
 
@@ -18,7 +20,9 @@ And naturally I also prefer a keyboard-focused editor like [neovim](https://neov
 
 ## Projects
 - [Warlock](https://warlock.elyfheim.me): A CHIP-8 emulator/interpreter written in C, compiled to WebAssembly.
+- [Lassi](https://github.com/elyfheim/lassi): A JavaScript framework with Vue-inspired syntax, fine-grained reactivity and no virtual DOM overhead. Written in Zig. 
 - [Nordle](https://nordle.elyfheim.me): A Wordle clone built with React, written in TypeScript.
+- [Nordle (Lassi)](https://github.com/elyfheim/nordle-lassi): Nordle, but built with my own JavaScript framework, Lassi.
 
 ## Links 
 - [Github](https://github.com/elyfheim)

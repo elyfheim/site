@@ -11,7 +11,7 @@ My area of interests are computer architecture, computer systems, compilers,
 emulator development, frontend & JavaScript tooling, systems programming and more. 
 
 I'm currently writing my own JavaScript [framework](https://github.com/elyfheim/lassi) in Zig (still a work-in-progress). Planning to have seamless integration with Zig codes so the users can easily 
-write performant logic in WebAssemby should they choose to do so.
+write performant logic in WebAssemby, should they choose to do so.
 
 Professionally, I mostly work with web technologies ranging from various front-end tooling like React, Vue, Vite and many more to back-end services and infrastructures-related technologies.
 

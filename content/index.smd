@@ -17,13 +17,13 @@ Professionally, I mostly work with web technologies ranging from various front-e
 I'm quite obsessed with workflow optimization and ergonomics, I got into split keyboards in [2025](https://elyfheim.me/blog/split-keyboard/) and I think it's game-changing for my typing experience. 
 And naturally I also prefer a keyboard-focused editor like [neovim](https://neovim.io/) (although, [helix](https://helix-editor.com/) is looking really nice these days).
 
-### Projects
+## Projects
 - [Warlock](https://warlock.elyfheim.me): A CHIP-8 emulator/interpreter written in C, compiled to WebAssembly.
 - [Lassi](https://github.com/elyfheim/lassi): A JavaScript framework with Vue-inspired syntax, fine-grained reactivity and no virtual DOM overhead. Written in Zig. 
 - [Nordle](https://nordle.elyfheim.me): A Wordle clone built with React, written in TypeScript.
 - [Nordle (Lassi)](https://github.com/elyfheim/nordle-lassi): Nordle, but built with my own JavaScript framework, Lassi.
 
-### Links 
+## Links 
 - [Github](https://github.com/elyfheim)
 - [Codeberg](https://codeberg.org/elyfheim)
 - [Email](mailto:cjunho889@gmail.com)

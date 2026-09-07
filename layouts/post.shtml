@@ -1,65 +1,5 @@
 <extend template="base.shtml">
 <head id="head">
-	<style>
-		#prev-next {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			margin-top: 40px;
-		}
-
-		.title {
-			color: #81a1c1;
-			margin-bottom: 6px;
-			font-weight: 500;
-			font-size: 24px;
-		}
-
-		.date {
-			color: #5e81ac;
-			font-weight: 400;
-			font-size: 14px;
-			margin-bottom: 12px;
-		}
-
-		@media (max-width: 768px) {
-			.date {
-				margin-bottom: 48px;
-			}	
-		}
-		
-		figure {
-			align-self: center;
-			text-align: center;
-			font-style: italic;
-		}
-
-		.post-container {
-			padding-left: 120px;
-			padding-right: 120px;
-			padding-bottom: 80px;
-		}
-
-
-		@media (max-width: 768px) {
-  			.post-container {
-				padding-left: 24px;
-				padding-right: 24px;
-  			}
-		}
-		
-		.post-content {
-			display:flex;
-			flex-direction: column;
-		}
-
-		pre {
-			background-color: #151921;
-			overflow-x: scroll;
-			max-width: 660px;
-			font-size: 14px;
-		}
-	</style>
 </head>
 <div id="body">
   <header>
@@ -89,6 +29,9 @@
 			</a>
 		</div>
 	</div>
+	<div class="back-to-top">
+		<button id="top-button">↑ back to top</button>
+	</div>
   </div>
 <script>
 window.MathJax = {
@@ -96,6 +39,10 @@ window.MathJax = {
     inlineMath: {'[+]': [['@@', '@@']]}
   }
 };
+document.getElementById("top-button").addEventListener("click", () => {
+	document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+})
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 </div>

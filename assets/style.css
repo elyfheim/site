@@ -64,6 +64,8 @@ ol {
 
 ul li,
 ol li {
+  letter-spacing: 0.1px;
+  line-height: 26px;
   margin-bottom: 6px;
 }
 
@@ -93,6 +95,67 @@ main {
 }
 span {
   font-family: "Roboto", sans-serif;
+}
+
+header {
+  z-index: 10000;
+}
+
+.MathJax {
+  z-index: 10;
+}
+
+.content-container {
+  padding-top: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 56px;
+  display: flex;
+  column-gap: 42px;
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    padding-left: 32px;
+    padding-right: 32px;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-name {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #b48ead;
+  margin-bottom: 4px;
+}
+
+.profile-description {
+  font-size: 15px;
+  font-style: italic;
+  color: #81a1c1;
+  text-align: center;
+  line-height: 20px;
+}
+
+.profile-image {
+  margin-top: 24px;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 160px;
+    height: 160px;
+  }
 }
 
 header {
@@ -158,6 +221,10 @@ header .container {
   max-width: 900px;
 }
 
+.post-list-item {
+  margin-bottom: 0;
+}
+
 @media (max-width: 900px) {
   .post-list {
     width: calc(100% - 60px);
@@ -188,6 +255,64 @@ header .container {
 .date-list {
   font-size: 14px;
   color: #4c566a;
+}
+
+#prev-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.title {
+  color: #81a1c1;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.date {
+  color: #5e81ac;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .date {
+    margin-bottom: 48px;
+  }
+}
+
+figure {
+  align-self: center;
+  text-align: center;
+  font-style: italic;
+}
+
+.post-container {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .post-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+}
+
+pre {
+  background-color: #151921;
+  overflow-x: scroll;
+  max-width: 660px;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
@@ -262,4 +387,20 @@ header .container {
 .source-code-footer {
   margin-top: 6px;
   font-size: 15px;
+}
+
+.back-to-top {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+
+    font-size: 16px;
+    text-decoration: underline;
+    color: #8fbcbb;
+  }
 }
